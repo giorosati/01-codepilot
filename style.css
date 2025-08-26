@@ -2,3 +2,145 @@ html {
   height: 100%;
   width: 100%;
 }
+
+/* Add light blue background to the page */
+body {
+  background-color: #e6f2ff;
+  font-family: Arial, san-serif;
+}
+
+/* make the header section white text with a blue background */
+header {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+nav {
+  width: 100%;
+  background: #111;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+header h1 {
+  font-size: 2.4em;
+  margin: 0.5em 0 0.3em 0;
+  font-family: inherit;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #000;
+}
+
+/* Make all h2 elements stand out and centered */
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  color: #0056b3;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 0.8em;
+  margin-bottom: 0.5em;
+  color: #007BFF;
+}
+
+/* Style navigation links horizontally */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 0.95em;
+  font-family: 'Segoe UI', 'Arial', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  transition: color 0.2s;
+}
+
+.nav-links a:hover {
+  color: #FFD700;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  max-width: 480px;
+  margin: 2em auto;
+  padding: 2em 2em 1.5em 2em;
+  text-align: center;
+}
+
+.card .sub-header {
+  font-size: 1.2em;
+  color: #007BFF;
+  margin-bottom: 0.7em;
+  margin-top: 0.2em;
+  font-weight: 500;
+}
+
+.card p {
+  color: #111;
+  font-size: 1.15em;
+  line-height: 1.7;
+}
+
+.card-links {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 1.2em 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+.card-links li {
+  display: inline;
+}
+
+.card-links a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1em;
+  transition: color 0.2s;
+}
+
+.card-links a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.headshot {
+  display: block;
+  margin: 1.5em auto 1em auto;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  border: 3px solid #fff;
+  background: #e6f2ff;
+}
